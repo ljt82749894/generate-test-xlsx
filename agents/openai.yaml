@@ -1,0 +1,7 @@
+interface:
+  display_name: "Generate Test XLSX"
+  short_description: "Generate test-condition and test-case Excel workbooks"
+  default_prompt: "Use $generate-test-xlsx to read a requirement PDF and developer-case workbook, draft `测试条件.xlsx`, and produce the final `测试用例.xlsx` in the current workspace."
+
+policy:
+  allow_implicit_invocation: true
